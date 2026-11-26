@@ -47,13 +47,14 @@ Output: [3,4,6,16,17]
 
 **Language:** C  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 11.7 MB (beats 66.72%)  
-**Submitted:** 2026-11-26T05:10:57.992Z  
+**Memory:** 11.9 MB (beats 38.53%)  
+**Submitted:** 2026-11-26T05:17:27.675Z  
 
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
+
 
 int* runningSum(int* nums, int numsSize, int* returnSize) {
     *returnSize = numsSize;
@@ -64,6 +65,7 @@ int* runningSum(int* nums, int numsSize, int* returnSize) {
 
     return nums;
 }
+
 ```
 
 ---
